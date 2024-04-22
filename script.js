@@ -40,15 +40,7 @@ keys.forEach(key => {
         }
             return;
         }
-/* Esta función maneja el evento de presionar la tecla "delete" en la calculadora.
-La primera condición verifica si la tecla presionada (del) es la de borrar.
-Si el contenido del display tiene una longitud de 1 o muestra "Error", se restablece a "0".
-Restablece el contenido del display a "0".
-Si hay más de un carácter en el display y no muestra "Error", elimina el último carácter.
-Elimina el último carácter del display.
-Return para terminar la ejecución de la función después de procesar la tecla de borrar.*/    
-
-
+  
         if (display.textContent === "0") {
             display.textContent = pressedKey;
         } else { 
