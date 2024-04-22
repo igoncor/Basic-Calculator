@@ -49,7 +49,6 @@ Elimina el último carácter del display.
 Return para terminar la ejecución de la función después de procesar la tecla de borrar.*/    
 
 
-
         if (display.textContent === "0") {
             display.textContent = pressedKey;
         } else { 
