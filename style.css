@@ -1,0 +1,76 @@
+body {
+    font-family: Courier, monospace;
+}
+
+/*DISPLAY SECTION*/
+.container1 {
+    gap: 10px;
+    background-color: #1C3339;
+    padding: 20px;
+    max-width: 400px;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+}
+
+.display {
+    display: block;
+    font-size: 50px;
+    text-align: right;
+    border-radius: 5px;
+    padding: 50px 380px 20px 20px;
+    max-width: 400px;
+    background-color: #D9D9D9
+}
+
+
+
+/*KEYS SECTION */
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+    background-color: #1C3339;
+    padding: 20px; 
+    max-width: 400px;
+    justify-content: center; 
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+}
+
+
+div {
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+#delete {
+    background-color: #E06B00;
+    color: white; 
+}
+
+#reset, #equal {
+    text-align: center;
+    background-color: #E06B00;
+    color: white;
+    grid-column: span 2; 
+}
+
+div:not(.display, .container1, .container2, #delete, #reset, #equal):hover{
+    background-color: #FFEBDA;
+}
+
+#delete:hover,
+#reset:hover,
+#equal:hover {
+    background-color: #B5C4C8
+}
+
+
+
+
+ 
+
+
