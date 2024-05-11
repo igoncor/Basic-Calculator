@@ -15,4 +15,4 @@ This is a web program made with **HTML5**, **CSS3**, and **Javascript** that emu
 Developed with **Visual Studio Code**
 
 # Test it ✅
-To test it, fork the repository and open it in Visual Studio Code or your program of choice.
+To test it here [Basic-Calculator](https://igoncor.github.io/Basic-Calculator/)
